@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #1e1e2f;
+  color: white;
+  margin: 0;
+  padding: 30px 16px;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.card {
+  background: #2a2a40;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+input,
+select {
+  font-size: 1rem;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #3a3a55;
+  color: white;
+}
+
+input::placeholder {
+  color: #9a9ab5;
+}
+
+#name-input {
+  flex: 2;
+  min-width: 140px;
+}
+
+#price-input,
+#size-input {
+  flex: 1;
+  min-width: 110px;
+}
+
+button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #4f8cff;
+  color: white;
+  transition: transform 0.1s;
+}
+
+button:hover {
+  background: #3a74e0;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.delete-btn {
+  background: #666;
+  padding: 6px 12px;
+}
+
+.delete-btn:hover {
+  background: #ff6b6b;
+}
+
+#message {
+  color: #ff6b6b;
+  height: 1.2rem;
+  margin: 10px 0 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 10px 8px;
+  border-bottom: 1px solid #3a3a55;
+}
+
+th {
+  color: #9a9ab5;
+  font-weight: normal;
+}
+
+#empty-text {
+  color: #9a9ab5;
+}
